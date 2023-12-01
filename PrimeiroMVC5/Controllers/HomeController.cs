@@ -12,6 +12,15 @@ namespace PrimeiroMVC5.Controllers
         {
             return View();
         }
+        [Route("about-us")]
+        public ActionResult About()
+        {
+            return View();
+        }
+        public ActionResult Contact()
+        {
+            return View();
+        }
 
         public ContentResult OlaMundo()
         {
