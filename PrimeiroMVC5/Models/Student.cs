@@ -12,6 +12,7 @@ namespace PrimeiroMVC5.Models
         public int Id { get; set; }
         [DisplayName("Nome")]
         [Required(ErrorMessage = "O campo {0} é requirido.")]
+        [MaxLength(100, ErrorMessage = "Maximo de 100 Caracteres")]
         public string Name { get; set; }
 
         [DisplayName("E-mail")]
