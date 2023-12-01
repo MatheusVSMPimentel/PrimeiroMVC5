@@ -61,9 +61,8 @@ namespace PrimeiroMVC5.Controllers
             return View(student);
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("get-students")]
-        [ValidateAntiForgeryToken]
         public async Task<ActionResult> GetStudents()
         {
             var students = _appDbContext.Students.ToList();
