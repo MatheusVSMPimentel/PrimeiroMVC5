@@ -5,6 +5,13 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroMVC5", "PrimeiroMVC5\PrimeiroMVC5.csproj", "{B0F10862-6664-47EC-9029-D058190D9A51}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{FB1CA9A9-30A4-42B4-8715-07E1B5406882}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{BB5FA3E0-9965-4DE4-B0A6-8AC18688D131}"
+	ProjectSection(SolutionItems) = preProject
+		PrimeiroMVC5\ci.yml = PrimeiroMVC5\ci.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB5FA3E0-9965-4DE4-B0A6-8AC18688D131} = {FB1CA9A9-30A4-42B4-8715-07E1B5406882}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90CF038C-8CA5-4967-99BD-B4FDFFFB7C7C}
