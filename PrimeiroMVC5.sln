@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{FB1C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{BB5FA3E0-9965-4DE4-B0A6-8AC18688D131}"
 	ProjectSection(SolutionItems) = preProject
-		PrimeiroMVC5\ci.yml = PrimeiroMVC5\ci.yml
+		.github\workflows\ci.yml = .github\workflows\ci.yml
 	EndProjectSection
 EndProject
 Global
